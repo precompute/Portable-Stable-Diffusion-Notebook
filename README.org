@@ -1,0 +1,13 @@
+** Sources Used:
+
+Modified from https://github.com/daswer123/stable-diffusion-colab/blob/main/StableDiffusionUI_Voldemort.ipynb
+
+xformers support added from https://github.com/TheLastBen/fast-stable-diffusion/blob/main/fast_stable_diffusion_AUTOMATIC1111.ipynb and https://github.com/ShivamShrirao/diffusers/blob/main/examples/dreambooth/train_dreambooth.py
+
+** Other platforms
+
+This notebook can run on platforms other than Google Colab.  Comment out all the google drive parts, and edit the file manually instead of using the `%%writefile` cell magic.
+
+If you don't have drive to save your outputs, you can use an S3 bucket on platforms that allow you to access `fusermount`.
+
+Alternatively `tar` your output folder and send it over with `croc` or `magic-wormhole`.
