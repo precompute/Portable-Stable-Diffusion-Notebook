@@ -1,14 +1,21 @@
-#+HTML: <img src="https://i.imgur.com/1noW3he.png">
-#+HTML: <img src="https://i.imgur.com/IW0SbTL.png">
+#+HTML: <img src="https://i.imgur.com/1noW3he.png" width="100"><img src="https://i.imgur.com/IW0SbTL.png" width="100">
 ** Sources Used:
 
 Modified from https://github.com/daswer123/stable-diffusion-colab/blob/main/StableDiffusionUI_Voldemort.ipynb
 
 xformers support added from https://github.com/TheLastBen/fast-stable-diffusion/blob/main/fast_stable_diffusion_AUTOMATIC1111.ipynb and https://github.com/ShivamShrirao/diffusers/blob/main/examples/dreambooth/train_dreambooth.py
 
+** Included Notebooks
+*** Colab
+This notebook should run effortlessly on Google Colab
+*** Other platforms
+A notebook without google-centric integrations has also been provided.  For platforms like *runbox*, *vast.ai*, and the like.
+
+Feel free to open an issue if something breaks / does not work / can be improved.
+
 ** Other platforms
 
-This notebook can run on platforms other than Google Colab.  Comment out all the google drive parts, and edit the file manually instead of using the =%%writefile= cell magic.
+Comment out all the google drive parts, and edit the file manually instead of using the =%%writefile= cell magic.
 
 If you don't have drive to save your outputs, you can use an S3 bucket on platforms that allow you to access =fusermount=.
 
